@@ -5,3 +5,11 @@
 #task-form {
   display: none;
 }
+
+a:hover {
+  text-decoration: none;
+}
+
+.well .task a:hover{
+  text-decoration: line-through;
+}
