@@ -81,4 +81,5 @@ class UserTasksController < ApplicationController
     def all_tasks
       @user_tasks = UserTask.all.order(:due)
     end
+
 end
