@@ -1,0 +1,15 @@
+// Place all the styles related to the UserTasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#task-form {
+  display: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.well .task a:hover{
+  text-decoration: line-through;
+}
